@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body {
+    font-family: 'Ubuntu';
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#txtSearchValue {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #1976d2; 
+    outline: none;
+    margin-right: 10px;
+    transition: border-bottom-color 0.3s ease;
+    flex-grow: 1;
+}
+
+#txtSearchValue:focus {
+    border-bottom-color: #2196f3;
+}
+
+
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1976d2; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #2196f3; 
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #424242;
+}
+
+
+#tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#tbl th, #tbl td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0; 
+}
+
+#tbl th {
+    background-color: #f5f5f5;
+}
+
+#tbl td img {
+    max-width: 50px;
+    max-height: 30px;
+    vertical-align: middle;
+}
